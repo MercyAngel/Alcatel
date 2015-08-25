@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/wifiOperators"
+        android:title="@string/wifiOperators"
+        android:icon="@drawable/ic_action_network_wifi"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/networkOperators"
+        android:title="@string/networkOperators"
+        android:icon="@drawable/ic_action_network_cell"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/notepad"
+        android:title="@string/notePad"
+        android:icon="@drawable/ic_action_notepad_icon"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/save"
+        android:title="@string/save"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/pdfSelector"
+        android:title="@string/selectPDF"
+        android:orderInCategory="11"
+        app:showAsAction="never"/>
+    <item android:id="@+id/PlansViewer"
+        android:title="@string/viewPlans"
+        android:orderInCategory="12"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/BuildingInfo"
+          android:title="@string/buildingInfo"
+          android:orderInCategory="13"
+          app:showAsAction="never"/>
+    <item android:id="@+id/cameraDialog"
+        android:title="@string/floorCapture"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+    <item android:id="@+id/drawing"
+        android:title="@string/drawing"
+        android:orderInCategory="6"
+        app:showAsAction="never" />
+
+   <!-- <item android:id="@+id/drawingUndo"
+        android:title="@string/drawingErase"
+        android:visible="true"
+        android:orderInCategory="7"
+        app:showAsAction="never" />
+    <item android:id="@+id/drawingSave"
+        android:title="@string/drawingSave"
+        android:visible="true"
+        android:orderInCategory="8"
+        app:showAsAction="never" />-->
+
+</menu>
